@@ -1,6 +1,8 @@
 // One-Line Office Joke Laugh-Off — entry program.
 // Writes one original one-line office joke to /output/entry.txt.
 // Gate: UTF-8 text, 1-200 characters, not only whitespace.
+// The joke: the word "ships" does double duty — what the team delivers
+// on time is never the work, it is always the blame.
 import * as fs from "node:fs";
 
 const LINE = "The only thing our team ever ships on time is the blame.";
